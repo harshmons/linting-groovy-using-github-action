@@ -1,8 +1,6 @@
-public class Sample {
-    public static void main(String[] args) {
-    }
-    def myClosure = {
-       println "My First Closure"	
-    }
-
+def add(a,b){
+  def sum = a + b
+  println "Sum is ${sum}"
 }
+
+add(5,6)
