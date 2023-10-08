@@ -1,6 +1,9 @@
-public class Demo {
+public class Sample {
     public static void main(String[] args) {
-        int x = 104;
-        System.out.println(x);
+        int x = 104
     }
+    def myClosure = {
+       println "My First Closure"	
+    }
+
 }
